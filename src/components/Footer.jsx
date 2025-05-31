@@ -55,7 +55,7 @@ const Footer = () => {
 
               <div className="d-flex justify-content-md-end justify-content-center align-items-center">
                 <FaEnvelope className="me-2 text-primary" />
-                <small>atiqeyecare@gmail.com hai</small>
+                <small>atiqeyecare@gmail.com</small>
               </div>
             </div>
           </Col>
