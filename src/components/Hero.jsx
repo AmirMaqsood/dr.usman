@@ -18,7 +18,11 @@ const Hero = () => {
         <p className="fs-5"></p>
         <h1 className="display-4 fw-bold">Dr. Usman Attique</h1>
         <p className="lead mx-auto" style={{ maxWidth: "700px" }}>
-          MBBS, FCPS, FICO, MRCS Ed
+          MBBS ( Pak), MRCS Ed (Ophth,UK) FCPS (Ophth,Pak) FICO (Fellow of
+          International Council of Ophthalmology, UK)
+        </p>
+        <p className="lead mx-auto" style={{ maxWidth: "700px" }}>
+          Fellowship training in Vitreoretinal Ophthalmology
         </p>
         <p className="lead mx-auto" style={{ maxWidth: "700px" }}>
           Ophthalmologist | Vitreoretinal Specialist | CEO of Atiq Eye Care

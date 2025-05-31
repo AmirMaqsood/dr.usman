@@ -35,7 +35,7 @@ const Contact = () => {
           <div className="text-muted">
             Flat 205,209 2nd Floor
             <br />
-            Syed Anwar Medical Center
+            Said Anwar Medical Center
             <br />
             Dabgari Garden Peshawar Cantt
             <br />
@@ -80,9 +80,7 @@ const Contact = () => {
         </Col>
         <Col>
           <strong>E-mail:</strong>
-          <div className="text-muted">
-            blocktheme@example.com &nbsp;&nbsp; helloteam@example.com
-          </div>
+          <div className="text-muted">atiqeyecare@gmail.com hai</div>
         </Col>
       </Row>
     </Container>

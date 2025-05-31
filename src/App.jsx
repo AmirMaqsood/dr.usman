@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
@@ -14,7 +14,6 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        {/* Home page route - render multiple components */}
         <Route
           path="/"
           element={
@@ -25,8 +24,6 @@ function App() {
             </>
           }
         />
-
-        {/* Separate routes */}
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/procedures" element={<Procedures />} />

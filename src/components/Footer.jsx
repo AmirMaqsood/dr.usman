@@ -32,7 +32,7 @@ const Footer = () => {
                 <small>
                   Flat 205,209 2nd Floor
                   <br />
-                  Syed Anwar Medical Center
+                  Said Anwar Medical Center
                   <br />
                   Dabgari Garden Peshawar Cantt
                 </small>
@@ -55,7 +55,7 @@ const Footer = () => {
 
               <div className="d-flex justify-content-md-end justify-content-center align-items-center">
                 <FaEnvelope className="me-2 text-primary" />
-                <small>blocktheme@example.com</small>
+                <small>atiqeyecare@gmail.com hai</small>
               </div>
             </div>
           </Col>
