@@ -6,6 +6,7 @@ import {
   FaEnvelope,
   FaClock,
   FaCalendarWeek,
+  FaFacebook,
 } from "react-icons/fa";
 import profileImg from "../assets/profile.jpg"; // Replace with your image path
 
@@ -14,10 +15,25 @@ const Footer = () => {
     <footer className="bg-dark text-white py-4">
       <Container>
         <Row className="align-items-start">
-          {/* Left side - copyright */}
-          <Col md={6} className="mb-3 mb-md-0 text-center text-md-start"></Col>
+          {/* Left side - Social Links */}
+          <Col md={6} className="mb-3 mb-md-0 text-start">
+            <h6 className="fw-bold mb-3">Social Links</h6>
+            <div className="d-flex align-items-center">
+              <FaFacebook className="me-2 text-primary" />
+              <small>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100090556375742"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white text-decoration-none"
+                >
+                  Follow on Facebook
+                </a>
+              </small>
+            </div>
+          </Col>
 
-          {/* Right side - contact info */}
+          {/* Right side - Contact Info */}
           <Col md={6}>
             <div className="text-md-end text-center">
               <h6 className="fw-bold mb-1">Dr. Usman Attique</h6>
@@ -51,7 +67,7 @@ const Footer = () => {
                 <small>0332-890 0093</small>
               </div>
 
-              <div className="d-flex justify-content-md-end justify-content-center align-items-center">
+              <div className="d-flex justify-content-md-end justify-content-center align-items-center mb-2">
                 <FaEnvelope className="me-2 text-primary" />
                 <small>atiqeyecare@gmail.com</small>
               </div>
@@ -59,7 +75,9 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="mb-3 mb-md-0 text-center ">
+
+      {/* Copyright */}
+      <Container className="mt-3 text-center">
         <p className="mb-0">© 2025. All rights reserved.</p>
       </Container>
     </footer>

@@ -1,13 +1,31 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Research = () => {
+  const navigate = useNavigate();
+
+  const handleBookConsultation = () => {
+    navigate("/contact");
+  };
+
   return (
     <section className="py-5 bg-light">
       <div className="container">
-        {/* <h2 className="mb-4 text-center">About Me</h2> */}
-        <div className="row d-flex align-items-start">
+        {/* Title and Button */}
+        <div className="d-flex justify-content-between align-items-center mb-4">
+          <h4 className="mb-0">Research</h4>
+          <button
+            type="button"
+            className="btn btn-primary"
+            onClick={handleBookConsultation}
+            style={{ borderRadius: "30px", fontWeight: "600" }}
+          >
+            Book Consultation
+          </button>
+        </div>
+
+        <div className="row">
           <div className="col-md-6">
-            <h4 className="mb-3">Research</h4>
             <ul>
               <li className="mb-3">
                 Comparison Of lntravitreal Bevacizumab And Triamcinolone
@@ -22,7 +40,7 @@ const Research = () => {
               </li>
               <li className="mb-3">
                 "Intra Operative Complications During Vitrectomy Performed By
-                Post Graduate Resident''., Journal Of Postgraduate Medical
+                Post Graduate Resident'', Journal Of Postgraduate Medical
                 Institute, November 2019.
               </li>
               <li className="mb-3">
@@ -38,7 +56,7 @@ const Research = () => {
               <li className="mb-3">
                 "Papilledema In Meningitis In Paediatric Patients Admitted At A
                 Tertiary Care Hospital, Peshawar", Al-Shifa Journal of
-                Ophthalmology, April-June 2018
+                Ophthalmology, April-June 2018.
               </li>
             </ul>
           </div>
