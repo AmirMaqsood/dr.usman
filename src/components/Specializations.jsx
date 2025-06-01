@@ -11,9 +11,10 @@ const Specializations = () => {
               Cataract & Refractive Surgery (Phaco, Laser Vision Correction){" "}
             </h5>
             <p>
-              Advanced procedures like Phacoemulsification and Laser Vision
-              Correction to restore clear vision. These treatments reduce
-              dependence on glasses and improve overall visual quality.
+              Advanced procedures like PRK, Femto lasik, Smile Surgery,
+              Phacoemulsification and Laser Vision Correction to restore clear
+              vision. These treatments reduce dependence on glasses and improve
+              overall visual quality.
             </p>
           </div>
           <div className="col-md-4">

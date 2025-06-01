@@ -15,9 +15,7 @@ const Footer = () => {
       <Container>
         <Row className="align-items-start">
           {/* Left side - copyright */}
-          <Col md={6} className="mb-3 mb-md-0 text-center text-md-start">
-            <p className="mb-0">© 2025. All rights reserved.</p>
-          </Col>
+          <Col md={6} className="mb-3 mb-md-0 text-center text-md-start"></Col>
 
           {/* Right side - contact info */}
           <Col md={6}>
@@ -60,6 +58,9 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
+      </Container>
+      <Container className="mb-3 mb-md-0 text-center ">
+        <p className="mb-0">© 2025. All rights reserved.</p>
       </Container>
     </footer>
   );

@@ -89,6 +89,18 @@ const Navbar = () => {
                 Procedures
               </NavLink>
             </li>
+            <li className="nav-item" role="presentation">
+              <NavLink
+                className={({ isActive }) =>
+                  "nav-link w-100 text-center rounded-0 rounded-lg-5 " +
+                  (isActive ? "active" : "")
+                }
+                to="/research"
+                role="tab"
+              >
+                Research
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
